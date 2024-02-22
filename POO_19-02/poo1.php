@@ -23,17 +23,20 @@
     }
 
 
-    $auto1=new Automovil();
-    //$auto1->color = 'verde';
+    $auto1 = new Automovil();
     $auto1->motor = 2.0;
     $auto1->marca = 'Toyota';
-
     $auto1->set_color("Azul") ;
-    /*$auto1->set_motor("2.2") ;
-    $auto1->set_marca("kia") ;*/
-
     echo " ".$auto1->get_color();
     echo "<br> ".$auto1->get_datos();
+
+
+    $auto2 = new Automovil();
+    $auto1->set_color("Gris") ;
+    $auto2->motor = 1.5;
+    $auto2->marca = 'Ford';
+    echo " ".$auto2->get_color();
+    echo "<br> ".$auto2->get_datos();
 
 
 
