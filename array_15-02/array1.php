@@ -9,13 +9,9 @@
         .color_dia{
             color:red;
         }
-
-
     </style>
-
 </head>
 <body>
-
     <?php
     
         $dia[0] = "lunes";
@@ -34,7 +30,6 @@
         echo "<hr>";
         echo"Mes> $mes[1]";
 
-
         print("<h4>LOS DIAS DE LAS SEMANAS:</h4>");
 
         for ( $x=0 ; $x<count($dia) ; $x++){
@@ -43,14 +38,10 @@
             } else {
                 echo "$dia[$x] <br>";
             }
-            
-            
         }
     ?>
 
     <?php 
-
-
         $autos = array("Volvo", "BMW", "Toyota");
 
         $array_longitud = count($autos);
@@ -60,11 +51,7 @@
             echo "<br>";
         }
 
-
     ?>
-
-
-
 
 </body>
 </html>
